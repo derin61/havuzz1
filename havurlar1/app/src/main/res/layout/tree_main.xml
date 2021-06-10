@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtıletısım"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"
+        android:textSize="35dp"
+        android:background="@color/purple_500"
+        android:text="İLETİŞİM" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aaaaaa"/>
+
+    <TextView
+        android:id="@+id/txtFaks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic"
+        android:text="Faks : 32415413" />
+
+    <TextView
+        android:id="@+id/txtMaıl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="10dp"
+        android:text="Gmail: ogi2894@gmail.com" />
+
+    <TextView
+        android:id="@+id/txtAdres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic"
+        android:text="Adres : Maltepe Mh. Zeytin Cd. Esenyurt/İSTANBUL" />
+
+    <Button
+        android:id="@+id/btnphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0(266)4231567" />
+
+</LinearLayout>

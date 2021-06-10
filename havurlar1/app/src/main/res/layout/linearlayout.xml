@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:text="Ana Sayfa"
+    android:gravity="center_horizontal"
+    android:background="@color/purple_500"
+    android:textSize="35dp"
+    android:textStyle="bold|italic"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/aaaaaa"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGönder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Randevu" />
+
+        <Button
+            android:id="@+id/btnTemizle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="İletişim" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtıcerık"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"
+        android:text="Yüzme havuzu çevresinde sadece havuz terliği kullanılmalıdır.
+
+Yüzme havuzuna duş alınmadan girilmemeli ve duşlarda sabun ya da şampuan kullanılmamalıdır.
+
+Yüzme havuzu saat 10.00 ile saat 21.00 arasında hizmet verecektir.
+
+12 yaşından küçük çocuklar yüzme havuzunu kendilerinden sorumlu biri olmadan ya da yazılı izinleri olmadan kullanmaları yasaktır. Yaşanabilecek herhangi bir olumsuz olay karşısında sorumluluk ebeveynlere aittir.
+
+6 yaşından küçük ve yüzme bilmeyen çocukların yetişkin havuzuna girmeleri yasaktır.
+
+Tuvalet alışkanlığı kazanmamış yaştaki çocukların ve altı bezli çocukların ebeveynleri ile birlikte de olsa yetişkin havuzuna sokulmaları kesinlikle yasaktır.
+
+Yüzme havuzu ve çevresinde top oynanması, koşarak havuza atlanması, havuz içerisinde şişme bot ve deniz yatağı kullanılması yasaktır.
+
+Çocuk havuzuna giren altı bezli çocukların, mutlaka havuz bezi ile havuza sokulmaları gerekir.
+
+Yüzme havuzu çevresindeki şezlong, tabure, yastık ve şemsiyeler usulüne uygun sadece oturma ve güneşlenme amacı ile kullanılmalı, havuz bölgesi dışına taşınmamalı ve havlu, çanta vb. şeylerle şezlonglar tutulmamalıdır. Özellikle yoğunluğun fazla olduğu tatil günlerinde uzun süreli ayrılmalarda havlu, çanta vb. şeyler bırakılmayıp şezlong ve tabureler boşaltılmalıdır.
+
+Sigara, kağıt mendil, plastik bardak vs. gibi çöpler çöp kutularına atılmalı, havuz ve çevresi kirletilmemelidir.
+
+Kırılabilecek ve kırıkları insanlara zarar verebilecek cam bardak, cam şişe gibi şeyler havuz ve çevresine bırakılmamalıdır."/>
+</LinearLayout>

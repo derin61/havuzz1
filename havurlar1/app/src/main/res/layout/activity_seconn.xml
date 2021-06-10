@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtRandevu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RANDEVU"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_500"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/txtBaslık1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yarı Olimpik Havuz"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/pppp" />
+
+    <TextView
+        android:id="@+id/txtName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic"
+        android:text="Ahmet Özçubuk" />
+
+    <Button
+        android:id="@+id/bttel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="05462741598" />
+
+    <TextView
+        android:id="@+id/txtBaslık2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olimpil Havuz"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/pppp2"/>
+
+    <TextView
+        android:id="@+id/txtName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:text="Selin Demir" />
+
+    <Button
+        android:id="@+id/bttel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="05321973515" />
+
+    <TextView
+        android:id="@+id/txtBaslık3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çocuk Havuzu"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/cocukhavuzu1"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:text="Melek Karagöz" />
+
+    <Button
+        android:id="@+id/bttel3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="05374576518"
+        />
+</LinearLayout>
